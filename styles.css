@@ -1,0 +1,39 @@
+.home_container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.fa-github,.fa-briefcase {
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+#dark-button {
+    position: relative;
+}
+.label-new {
+    background: #f1273c;
+    color: #fff;
+    padding: 2px 3px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.label-for-button {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
